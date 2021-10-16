@@ -1,0 +1,47 @@
+body { 
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header, footer {
+    border: 1px solid #bbbbbb;
+    padding: .5rem;
+    background-color: paleturquoise;
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    grid-template-columns: 200px 1fr;
+}
+
+main {
+    margin: 1rem auto;
+    background-color: palevioletred;
+    padding: 1rem;
+}
+
+footer {
+    grid-template-columns: 1fr 300px;
+}
+
+h1{
+    color: #000080;
+    font-size: 2.2rem;
+}
+
+/* Class selectors */
+.page{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
