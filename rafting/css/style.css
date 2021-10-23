@@ -9,8 +9,7 @@ body {
 header, footer {
     border: 1px solid #bbbbbb;
     padding: .5rem;
-    background-color: #E76F51
-    ;
+    background-color: #E76F51;
     display: grid;
 
     align-items: center;
@@ -18,7 +17,7 @@ header, footer {
 }
 
 header {
-    grid-template-columns: 200px 1 fr;
+    grid-template-columns: 122px 1 fr;
 }
 
 main {
