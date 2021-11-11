@@ -15,7 +15,13 @@ header, footer{
     border: 1px solid #CB997E ;
     padding: .5rem;
     background-color: #DDBEA9;
+    display: grid;
     text-align: center;
+}
+
+.logo img{
+    max-width: 200px;
+    height: auto;
 }
 
 main {
@@ -28,4 +34,9 @@ main {
 
 h1 {
     color: #000;
+}
+
+.images img{
+    max-width: 100%;
+    height: auto;
 }
