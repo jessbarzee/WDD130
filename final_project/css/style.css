@@ -37,6 +37,11 @@ h1 {
 }
 
 .images img{
+    max-width: 200px;
+    height: 100px;
+}
+
+.wireframe  img {
     max-width: 100%;
-    height: auto;
+    height: 5000px;
 }
