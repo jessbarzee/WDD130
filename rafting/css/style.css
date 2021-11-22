@@ -10,7 +10,7 @@ header, footer {
     margin: 0 auto;
     border: 1px solid #bbbbbb;
     padding: .5rem;
-    background-color: lightsteelblue;
+    background-color: #DDA15E;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@ header {
 
 main {
     margin: 1rem auto;
-    background-color: whitesmoke;
+    background-color: #FEFAE0;
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -41,8 +41,6 @@ h1{
 img{
     box-shadow: 0 0 50px #000;
 }
-
-
 
 .mainnav { 
     list-style-type: none;
@@ -62,26 +60,27 @@ img{
     display: block;
     padding: 1rem;
     text-decoration: none;
-    background-color: lightcyan;
-    border: 1px solid lightsteelblue;
+    background-color: #FEFAE0;
+    border: 1px solid #DDA15E;
     font-size: 1.2rem;
 }
 
 .mainnav a:hover{
     color: #abe;
-    background-color: white;
+    background-color:black;
 }
 
 .banner {
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cta {
     position: absolute;
-    position: absolute;
-	top: 25px;
-	right: 70px;
-	background: radial-gradient(#eee, #abe);
+	top: 350px;
+	right: 500px;
+	background: radial-gradient(#FEFAE0, #606C38);
 	border: 1px solid #000;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
@@ -171,4 +170,82 @@ footer {
 
 .social img {
     box-shadow: 0 0 0 #abe;
+}
+
+.interesting_facts {
+    padding: 10px; 
+    border: 15px solid #DDA15E;
+}
+
+.interesting_facts h2 {
+    text-align: center;
+}
+
+.interesting_facts img {
+    width: auto;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 0 #0000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interesting_facts li {
+    font-size: 15pt;
+    margin-bottom: 5px;
+}
+
+.river_title {
+    text-align: center;
+    font-size: larger;
+    background-color: #606C38;
+
+}
+
+.river_title h1 {
+    color: #FEFAE0;
+}
+
+.pricing_title {
+    text-align: center;
+    font-size: larger;
+    background-color: #606C38;
+
+}
+
+.pricing_title h1 {
+    color: #FEFAE0;
+}
+
+.waving_image img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 #000;
+}
+.family_rafting img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 #000;
+}
+.box_1 {
+    padding: 10px; 
+    border: 5px solid #BC6C25;
+}
+
+.box_2 {
+    padding: 10px; 
+    border: 5px solid #BC6C25;
+}
+
+.box_3 {
+    padding: 10px; 
+    border: 5px solid #BC6C25;
+}
+
+.box_4 {
+    padding: 10px; 
+    border: 5px solid #BC6C25;
+
 }
