@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lora, sans-serif;
+    letter-spacing: 0.03em;
+  }
+
+.card{
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.heart {
+    position: absolute;
+    top: 175px;
+    right: 750px;
+    transition: margin-right 2s;
+}
+
+header img{
+    width: 400px;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+h1, p{
+    padding: 10px;
+}
+
+footer{
+    font-variant: small-caps;
+}
+
+footer a {
+    position: absolute;
+    top: 650px;
+    right: 750px;
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    width: 55px;
+}
+
+
+  
+
