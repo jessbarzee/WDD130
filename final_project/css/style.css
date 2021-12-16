@@ -29,7 +29,8 @@ footer {
 .logo img {
   max-width: 200px;
   height: auto;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 10px #cb997e;
 }
 
 main {
